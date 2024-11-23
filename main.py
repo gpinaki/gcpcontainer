@@ -7,7 +7,7 @@ import numpy as np
 def main():
     say_hello()
     arr = np.array([1, 2, 3, 4, 5])
-    print("Sum:", np.sum(arr))
+    print("Sum :", np.sum(arr))
     TASK_INDEX = os.getenv("CLOUD_RUN_TASK_INDEX", 0)
     print('TASK_INDEX', TASK_INDEX)
 
